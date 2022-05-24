@@ -1,10 +1,11 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import App from './App';
-
+import React from "react";
+import ReactDOM from "react-dom";
+import App from "./App";
+import {VideoProvider} from "./VideoProvider";
 
 ReactDOM.render(
-	<App />,
-	document.getElementById('root')
+  <VideoProvider>
+    <App />
+  </VideoProvider>,
+  document.getElementById("root")
 );
-

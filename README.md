@@ -1,27 +1,20 @@
-# Video Meeting
+# WeCall - Video Chat
 
-Google Meet / Zoom clone in a few lines of code.
-
-Video Meeting is a video conference website that lets you stay in touch with all your friends.
+A Video conferencing app based on Goggle Meet and Zoom
 
 Developed with ReactJS, Node.js, SocketIO.
 
-![Website](https://i.imgur.com/HhZD01o.jpg)
-
 ### Website
-Try Video Meeting here [video.sebastienbiollo.com](https://video.sebastienbiollo.com)
+Try WeCall here [wecall-test-app.herokuapp.com/](https://wecall-test-app.herokuapp.com/)
 
 
 ### Features
-- Is 100% free and open-source
-- No account needed
-- Unlimited users
 - Messaging chat and video streaming in real-time
-- Screen sharing to present documents, slides, and more
+- Screen sharing to present screen
 - Everyting is peer-to-peer thanks to webrtc
 
-
-### Local setup
-
-1. `yarn install`
-2. `yarn dev`
+## Work on v2
+- Upgrade from Class to Hooks(In Progress)
+- Separate Check Screen and Main meeting
+- Allow Authenticated Users Only
+- Admin can only allow others to room

@@ -1,4 +1,4 @@
-import React, { Component } from 'react'
+import React from 'react'
 import Video from './Video'
 import Home from './Home'
 import CheckScreen from "./CheckScreen";
