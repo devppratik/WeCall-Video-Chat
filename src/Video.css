@@ -1,0 +1,59 @@
+body {
+    margin: 0;
+}
+
+.flex-container {
+    height: calc(100% - 150px);
+    width: 100%;
+    /* margin: 0 auto; */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    height: 100vh;
+    width: 100vw;
+    max-width: 100vw;
+    max-height: 100vh;
+
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.div-send-msg {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.btn-down {
+    z-index: 2;
+    position: fixed; 
+    bottom: 0px;
+    width: 100%;
+    height: auto;
+}
+
+div.volume-visualizer {
+  --volume: 0%;
+  position: relative;
+  width: 200px;
+  height: 20px;
+  margin: 50px;
+  background-color: #DDD;
+}
+
+div.volume-visualizer::before {
+   content: '';
+   width: var(--volume);
+   background-color: green;
+   transition: width 100ms linear;
+}
+
+button {
+  margin-left: 50px;
+}
